@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Fullstack_Nodejs_K10"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "F8 Fullstack"
+	}
+}
