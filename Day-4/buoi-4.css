@@ -1,0 +1,77 @@
+/* CSS Bài 1 */
+.section-bai1 {
+    background-color: #324455;
+    padding: 20px;
+    border-radius: 12px;
+}
+.h2-bai1::before {
+    content: "Earn in come";
+    color: #ec8b39;
+}
+.h2-bai1, .section-bai1 p {
+    color: white;
+}
+input {
+    padding: 5px;
+    border-radius: 4px;
+}
+button {
+    padding: 5px;
+    background-color: #f8db35;
+    border-radius: 4px;
+}
+.section-bai1:hover input::placeholder {
+    color: #ec8b39;
+} 
+.section-bai1:hover input {
+    background-color: #ddd;
+}
+.section-bai1:hover button {
+    background-color: #ec8b39;
+    color: white;
+}
+/* CSS Bài 2 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+blockquote {
+    display: block;
+    padding: 30px;
+}
+blockquote::before {
+    content: "❝";
+    font-size: 50px;
+    background-color: #ccc;
+    padding: 8px 16px 0px 16px;
+    border-radius: 50%;
+}
+blockquote::after {
+    content: "❞";
+    float: right;
+    font-size: 50px;
+    padding: 8px 16px 0px 16px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+  /* CSS Bài 3 */
+
+.ul-bai3 > li::before {
+    content: "☺️ ";
+}
+ul {
+    list-style-type: none;
+}
+
+/* CSS Bai 4 */
+
+.note {
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 10px 20px 30px 20px;
+}
+.h2-bai4 {
+    color: #4d5b7c;
+}

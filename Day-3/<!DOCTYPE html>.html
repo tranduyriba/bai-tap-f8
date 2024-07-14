@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buoi 3 - Bai 1</title>
+    <style>
+      .flex-container {
+        display: flex;
+      }
+      .formbody {
+        background-color: #f4f4f4;
+        width: 600px;
+        border-radius: 12px;
+        padding: 10px 20px 20px 20px;
+      }
+      .col1 input {
+        width: 280px;
+        margin: 5px 30px 5px 0px;
+      }
+      .col2 input,
+      .country {
+        width: 275px;
+        margin: 5px 0px 5px 0px;
+      }
+      button {
+        margin-top: 10px;
+        padding: 10px;
+        border: 0px;
+        border-radius: 4px;
+        background-color: aqua;
+        width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="formbody">
+      <h2>Try a free sample</h2>
+      <p>
+        Sign up to get a coupon you can redeem at your nearest. Lorem ipsum,
+        dolor sit amet consectetur adipisicing elit. Maiores quam beatae sequi
+        inventore impedit earum quibusdam doloribus esse aspernatur rerum eum,
+        eaque aperiam, reprehenderit, rem dicta. Sapiente accusantium sunt ex.
+      </p>
+      <form action="https://api-gateway.fullstack.edu.vn/action_page.php">
+        <div class="flex-container form">
+          <div class="col1">
+            <div>
+              <label>First Name</label>
+            </div>
+            <div>
+              <input
+                type="text"
+                id="firstname"
+                name="firstname"
+                placeholder="John"
+              />
+            </div>
+            <div>
+              <label>Email address</label>
+            </div>
+            <div>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="John@example.com"
+              />
+            </div>
+            <div>
+              <label>City</label>
+            </div>
+            <div>
+              <input type="text" id="city" name="city" placeholder="London" />
+            </div>
+            <div>
+              <label>ZIP code</label>
+            </div>
+            <div>
+              <input
+                type="text"
+                id="zipcode"
+                name="zipcode"
+                placeholder="EC2Y8DS"
+              />
+            </div>
+          </div>
+          <div class="col2">
+            <div>
+              <label>Last Name</label>
+            </div>
+            <div>
+              <input
+                type="text"
+                id="lastname"
+                name="lastname"
+                placeholder="Smith"
+              />
+            </div>
+            <div>
+              <label>Address</label>
+            </div>
+            <div>
+              <input
+                type="text"
+                id="address"
+                name="address"
+                placeholder="Silk St"
+              />
+            </div>
+            <div>
+              <label>State</label>
+              <label style="color: gray">(optional)</label>
+            </div>
+            <div>
+              <input type="text" id="state" name="state" placeholder="Smith" />
+            </div>
+            <div>
+              <label>Country</label>
+            </div>
+            <div>
+              <select class="country">
+                <option value="1">United Kingdom</option>
+                <option value="2">Vietnam</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button type="submit">SEND ME FREE COFFEE</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
