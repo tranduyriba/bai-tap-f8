@@ -3,6 +3,8 @@
     background-color: #324455;
     padding: 20px;
     border-radius: 12px;
+    width: 80%;
+    height: 50%;
 }
 .h2-bai1::before {
     content: "Earn in come";
@@ -31,11 +33,6 @@ button {
     color: white;
 }
 /* CSS Bài 2 */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 blockquote {
     display: block;
     padding: 30px;
@@ -74,4 +71,7 @@ ul {
 }
 .h2-bai4 {
     color: #4d5b7c;
+}
+.section-bai4 {
+    padding: 30px;
 }

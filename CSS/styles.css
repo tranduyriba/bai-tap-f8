@@ -46,3 +46,6 @@ tr:hover {
 .head-page {
     text-align: center;
 }
+li {
+    list-style-type: none;
+}
