@@ -1,0 +1,13 @@
+input[type^="checkbox"]:checked ~ p {
+    display: hidden;
+
+}
+div[class$="question"]+input {
+    background-color: aqua;
+}
+
+.quest-heading {
+    background-color: #d95924;
+    padding: 5px;
+    color: white;
+}
