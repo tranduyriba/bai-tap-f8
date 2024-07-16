@@ -1,0 +1,24 @@
+.section-bai1 {
+    background-image: url(https://i.ytimg.com/vi/x0fSBAgBrOQ/maxresdefault.jpg);
+    width: 1280px;
+    height: 720px;
+    background-size: contain;
+
+}
+.div-bai1 {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+
+.div-bai2 {
+    text-align: center;
+    margin-top: 60px;
+    /* border: 1px solid red; */
+    padding-top: 15px;
+    width: 400px;
+    height: 240px;
+    margin-left: 530px;
+    background-color: rgba(240, 248, 255, 0.347);
+    box-shadow: 2px 2px 4px #000;
+}

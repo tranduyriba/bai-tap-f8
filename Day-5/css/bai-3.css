@@ -1,0 +1,27 @@
+.heading {
+    text-align: center;
+}
+.box {
+    display: flex;
+    text-align: center;
+    padding: 20px 50px;
+}
+.box1, .box2, .box3 {
+    border: 1px solid red;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button {
+    background-color: #f2a939;
+    color: white;
+}
+div[class^="icon"] {
+    font-size: 30px;
+    color: #f2a939;
+    border: 1px solid #f2a939;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+}
